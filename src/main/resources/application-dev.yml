@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/happyblog?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: root
+mybatis:
+  #  指定map.xml路径,这个一般放在resources中,配置类路径下的mapper文件夹即可
+  mapper-locations: classpath:mapper/*.xml
+  #  指定resultType,Parametype
+  type-aliases-package: group.yuyue.demo.Entity

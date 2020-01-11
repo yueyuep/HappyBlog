@@ -1,0 +1,19 @@
+.footer-main {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footer-main {
+
+    margin: 0 auto;
+    width: 50%;
+}
+
+.layui-breadcrumb {
+    margin-top: 15px;
+}
+
